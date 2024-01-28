@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,28 +9,21 @@
     <link rel="stylesheet" href="./aos.min.css">
     <link rel="stylesheet" href="./fontawesome-free-6.4.2-web/css/all.min.css">
 </head>
+
 <body>
-    
+
     <header>
-        <nav
-            class="navbar navbar-expand-md navbar-light bg-light"
-        >
+        <nav class="navbar navbar-expand-md navbar-light bg-light">
             <div class="container">
                 <a class="navbar-brand" href="/">Logo</a>
-                <button
-                    class="navbar-toggler d-lg-none"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#collapsibleNavId"
-                    aria-controls="collapsibleNavId"
-                    aria-expanded="false"
-                    aria-label="Toggle navigation"
-                >
+                <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                    aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="collapsibleNavId">
                     <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
-                        
+
                         <li class="nav-item">
                             <a class="nav-link fw-bold" href="/signup.html">SIGNUP</a>
                         </li>
@@ -41,28 +35,53 @@
                         <li class="nav-item">
                             <a class="nav-link fw-bold " href="./contact.html">CONTACT</a>
                         </li>
-                        
+
                     </ul>
-                   
+
                 </div>
             </div>
         </nav>
-        
+
     </header>
 
-    <main>
+    <main class="p-5 ">
+        <div class="container ">
+            <form class="row">
 
-        <h1>SIGNUP PAGE</h1>
+                <div class="col-md-6  m-auto ">
+                    <label for="" class="form-label">First Name</label>
+                    <input class="form-control " type="text" required>
+                </div>
+
+                <div class="col-md-6  m-auto ">
+                    <label for="" class="form-label">Last Name</label>
+                    <input class="form-control " type="text" required>
+                </div>
+
+                <div class="col-md-6  m-auto ">
+                    <label for="" class="form-label">Email</label>
+                    <input class="form-control " type="email" required>
+                </div>
+
+                <div class="col-md-6  m-auto ">
+                    <label for="" class="form-label">password</label>
+                    <input class="form-control " type="password" required>
+                </div>
+
+
+                <button class="btn btn-dark mt-3 col-md-2  ">Register</button>
+            </form>
+        </div>
 
     </main>
 
     <footer class="bg-dark p-5 text-white fw-bold text-center ">
-    
-            &copy; copyright  <strong>Team</strong> 
-            <script>
-                document.write(new Date().getFullYear())
-            </script>
-        
+
+        &copy; copyright <strong>Team</strong>
+        <script>
+            document.write(new Date().getFullYear())
+        </script>
+
     </footer>
 
 
@@ -73,4 +92,5 @@
     <script src="./aos.min.js"></script>
     <script src="./script.js"></script>
 </body>
+
 </html>
