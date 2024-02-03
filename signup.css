@@ -1,0 +1,26 @@
+
+
+.social-container a {
+
+    
+	border-radius: 50%;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 5px;
+	height: 40px;
+	width: 40px;
+	background: rgb(248,249,250);
+}
+img{
+    width: 50%;
+    height: 50px;
+    object-fit: contain;
+}
+.form-control::placeholder {
+	color: rgb(144, 150, 156);
+  }
+.p-2{
+	text-decoration: none;
+
+}

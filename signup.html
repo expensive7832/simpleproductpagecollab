@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./bootstrap.min.css">
     <link rel="stylesheet" href="./aos.min.css">
     <link rel="stylesheet" href="./fontawesome-free-6.4.2-web/css/all.min.css">
+    <link rel="stylesheet" href="./signup.css">
 </head>
 
 <body>
@@ -45,33 +46,44 @@
     </header>
 
     <main class="p-5 ">
-        <div class="container ">
-            <form class="row">
-
+        <div class="container  d-flex justify-content-center  ">
+            <form class="row col-md-8   ">
+                <h1>Create Account</h1>
                 <div class="col-md-6  m-auto ">
-                    <label for="" class="form-label">First Name</label>
-                    <input class="form-control " type="text" required>
+
+                    <label for="" class="form-label"></label>
+                    <input class="form-control " type="text" required placeholder="First Name">
                 </div>
 
                 <div class="col-md-6  m-auto ">
-                    <label for="" class="form-label">Last Name</label>
-                    <input class="form-control " type="text" required>
+                    <label for="" class="form-label"></label>
+                    <input class="form-control " placeholder="Last Name" type="text" required>
                 </div>
 
                 <div class="col-md-6  m-auto ">
-                    <label for="" class="form-label">Email</label>
-                    <input class="form-control " type="email" required>
+                    <label for="" class="form-label"></label>
+                    <input class="form-control " placeholder="you@email.com" type="email" required>
                 </div>
 
                 <div class="col-md-6  m-auto ">
-                    <label for="" class="form-label">password</label>
-                    <input class="form-control " type="password" required>
+                    <label for="" class="form-label"></label>
+                    <input class="form-control " placeholder="Password" type="password" required>
                 </div>
 
 
+                <div class="social-container p-4 d-flex justify-content-center ">
+                    <a href="#"><img src="./icons8-google-logo-48.png" alt=""></a>
+                    <a href="#"><img src="./icons8-facebook-logo-48.png" alt=""></a>
+                    <a href="#"><img src="./icons8-linkedin-logo-48.png" alt=""></i></a>
+
+                </div>
+                <span class="d-flex  justify-content-center ">or use your email to resgister</span>
                 <button class="btn btn-dark mt-3 col-md-2  ">Register</button>
+                <p class="p-2">Already have an account? <span class="login"><a style="text-decoration:none" href="./login.html">Sign In</a></span></p>
             </form>
+
         </div>
+
 
     </main>
 
